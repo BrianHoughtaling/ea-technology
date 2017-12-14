@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="467B1879-F" name="CSU Technology" version="1.0" notes="CSU Technology"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Composites" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage">
+						<Property name="IsCollapsed" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="CSU Technology::CSUAppDeployment(UML::Class)" type="" description="" unit="" values="" default="CSU App Deployment"/>
+					<Tag name="CSU Technology::CSUDbInstanceDeployment(UML::Class)" type="" description="" unit="" values="" default="CSU DB Instance Deployment"/>
+					<Tag name="CSU Technology::CSUSoftwareSuite(UML::Class)" type="" description="" unit="" values="" default="CSU Software Suite"/>
+					<Tag name="CSU Technology::CSUBusinessCapability(UML::Requirement)" type="" description="" unit="" values="" default="CSU Business Capability - Requirement Based"/>
+					<Tag name="CSU Technology::CSUBusinessCapability-Archimate(UML::Class)" type="" description="" unit="" values="" default="CSU Business Capability - Archimate Based"/>
+					<Tag name="isCollapsed" type="boolean" description="" unit="" values="true,false" default="true"/>
+					<Tag name="CSU Technology::CSUTimelineGeneral(UML::Class)" type="" description="" unit="" values="" default="CSU Timeline General"/>
+					<Tag name="CSU Technology::CSUTimelineLocation(UML::Class)" type="" description="" unit="" values="" default="CSU Timeline Location"/>
+					<Tag name="CSU Technology::CSUTimelineStage(UML::Class)" type="" description="" unit="" values="" default="CSU Timeline Stage"/>
+					<Tag name="CSU Technology::CSUTimelineStandard(UML::Class)" type="" description="" unit="" values="" default="CSU Timeline Standard"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="What - Business" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage">
+						<Property name="IsCollapsed" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="CSU Technology::CSUBusinessFunction(UML::Class)" type="" description="" unit="" values="" default="CSU Business Function"/>
+					<Tag name="CSU Technology::CSUBusinessService(UML::Class)" type="" description="" unit="" values="" default="CSU Business Service"/>
+					<Tag name="CSU Technology::CSUDataConcept(UML::Class)" type="" description="" unit="" values="" default="CSU Data Concept"/>
+					<Tag name="ISCollapsed" type="boolean" description="" unit="" values="true,false" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="What - System" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage">
+						<Property name="IsCollapsed" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="CSU Technology::CSUSystem(UML::Class)" type="" description="CSU Definition:  A CSUSystem is a collection of software, hardware and/or data components that supports one or many business services." unit="" values="" default="CSU System"/>
+					<Tag name="CSU Technology::CSULogicalDataEntity(UML::Class)" type="" description="" unit="" values="" default="CSU Logical Data Entity"/>
+					<Tag name="CSU Technology::CSULogicalEnum(UML::Enumeration)" type="" description="The element that represents the Logical Enumeration Entity in the What Classification of the Architect Perspective of the Zachman Framework. " unit="" values="" default="CSU Logical Enum"/>
+					<Tag name="IsCollapsed" type="boolean" description="" unit="" values="true,false" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="What - Technology" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage">
+						<Property name="IsCollapsed" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="CSU Technology::CSUApplication(UML::Class)" type="" description="" unit="" values="" default="CSU Application"/>
+					<Tag name="CSU Technology::CSUSoftware(UML::Class)" type="" description="CSU Definition:  CSUSoftware is a group of code or executables.  It can be of type: application, desktop or infrastructure." unit="" values="" default="CSU Software"/>
+					<Tag name="CSU Technology::CSUHardware(UML::Class)" type="" description="" unit="" values="" default="CSU Hardware"/>
+					<Tag name="CSU Technology::CSUVirtualWare(UML::Class)" type="" description="" unit="" values="" default="CSU Virtualware"/>
+					<Tag name="CSU Technology::CSUProtocol(UML::Class)" type="" description="" unit="" values="" default="CSU Protocol"/>
+					<Tag name="CSU Technology::CSULanguage(UML::Class)" type="" description="" unit="" values="" default="CSU Language"/>
+					<Tag name="CSU Technology::CSUDataElement(UML::Class)" type="" description="" unit="" values="" default="CSU Data Element"/>
+					<Tag name="CSU Technology::CSUDataAttribute(UML::Class)" type="" description="" unit="" values="" default="CSU Data Attribute"/>
+					<Tag name="CSU Technology::CSUPhysicalEnum" type="" description="" unit="" values="" default="CSU Physical Enum"/>
+					<Tag name="CSU Technology::CSUDataConnector(UML::Association)" type="" description="" unit="" values="" default="CSU Data Connector"/>
+					<Tag name="CSU Technology::CSUDataRelationship(UML::Association)" type="" description="" unit="" values="" default="CSU Data Relationship"/>
+					<Tag name="CSU Technology::CSUDatabaseInstance(UML::Class)" type="" description="" unit="" values="" default="CSU Database Instance"/>
+					<Tag name="CSU Technology::CSURequestPort(UML::Port)" type="" description="" unit="" values="" default="CSU Request Post"/>
+					<Tag name="CSU Technology::CSUProviderPort(UML::Port)" type="" description="" unit="" values="" default="CSU Provider Port"/>
+					<Tag name="CSU Technology::CSUIntegrationConnector(UML::Connector)" type="" description="" unit="" values="" default="CSU Integration Connector"/>
+					<Tag name="CSU Technology::CSUMessage(UML::Class)" type="" description="" unit="" values="" default="CSU Message"/>
+					<Tag name="CSU Technology::CSUIntegration(UML::Class)" type="" description="" unit="" values="" default="CSU Integration"/>
+					<Tag name="IsCollapsed" type="boolean" description="" unit="" values="true,false" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="What - Tool" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage">
+						<Property name="IsCollapsed" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="IsCollapsed" type="boolean" description="" unit="" values="true,false" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Where - Business" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage">
+						<Property name="IsCollapsed" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="IsCollapsed" type="boolean" description="" unit="" values="true,false" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Where - System" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage">
+						<Property name="IsCollapsed" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="IsCollapsed" type="boolean" description="" unit="" values="true,false" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Where - Technology" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage">
+						<Property name="IsCollapsed" value="true"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="IsCollapsed" type="boolean" description="" unit="" values="true,false" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>

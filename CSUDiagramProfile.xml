@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="76074D21-F" name="CSU Technology" version="4.0" alias="CSU" notes="12/13/2016 - moved to shared drive J:"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="CSU Architecture Diagram" notes="Use this diagram to capture CSU specific elements and relationships" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Component">
+						<Property name="alias" value="CSU"/>
+						<Property name="diagramID" value="CSU"/>
+						<Property name="pdata" value="UseAlias=1;"/>
+						<Property name="toolbox" value="CSU Technology"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>

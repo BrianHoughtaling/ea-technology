@@ -1,0 +1,1840 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="42B96FC4-5" name="CSU Technology" version="1.0" notes="CSU Technology"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="ARTIFACTS::Artifact" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true"/>
+			<Stereotype name="CSUAppDeployment" metatype="CSUAppDeployment" notes="" cx="135" cy="60" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk0GCAAAAAAAADYAAAAoAAAAGgAAABkAAAABABgAAAAAANAHAAASFwAAEhcAAAAAAAAAAAAA
+/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//
+//39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9
+/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39
+/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39
+/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39
+/f39/f39/f0AAOHh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh
+4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4/39/f39/f39/f39/f39/QAAvr7Bvr7Bvr7Bvr7Bvr7Bvr7B
+vr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7B/f39/f39/f39
+/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+AAA=</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Environment" type="enumeration" description="" unit="" values="DEV,PRD,QA,TST,VP,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="DeploymentStatus" type="enumeration" description="" unit="" values="Decom,Not Ready,Operational" default="Not Currently Defined"/>
+					<Tag name="PatchLevel" type="String" description="" unit="" values="" default=""/>
+					<Tag name="PatchWindow" type="String" description="" unit="" values="" default=""/>
+					<Tag name="VipName" type="String" description="" unit="" values="" default=""/>
+					<Tag name="InstallDate" type="Date" description="" unit="" values="" default=""/>
+					<Tag name="PatchDate" type="Date" description="" unit="" values="" default=""/>
+					<Tag name="OperationalDate" type="Date" description="" unit="" values="" default=""/>
+					<Tag name="DecomDate" type="Date" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUApplication" metatype="CSUApplication" notes="CSU Definition:  CSUApplication is a group of code or executables.  It can be of type: application, desktop or infrastructure.&#xA;&#xA;The CSU Application Entity is generally located in the What Classification of the Architect Perspective of the Zachman Framework." cx="135" cy="60" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="SoftwareType" type="enumeration" description="" unit="" values="Application,Desktop,Infrastructure" default="Not Currently Defined"/>
+					<Tag name="TechnologyType" type="enumeration" description="" unit="" values="Advanced Threat Detection,Antivirus,Appliance Server,Application Management,Automated Meter Reading (AMR),Battery Bank,Business Intelligence,CISC Server,Collaboration Management,Compliance Management,Computer Aided Engineering,Configuration Management,Contact Center Software,Customer Information System,Customer Service and Support,Database Management,Desktop,Development Environment,Electronic Payments,Energy Metering,Energy Trading and Risk Management,Enterprise Content Management,Enterprise Systems Management,Environmental Management,Fiber Multiplexer,Field Service and Dispatch,Financial Management,Firewall,Forensics,Geographic Information System,Head-End System,Host Intrusion Prevention,Human Resources Management,Hvac,Identity and Access Management (IAM),Integration Middleware,Interactive Voice Response,Intrusion Prevention System,Laptop,Learning Management,Meter Data Management,Meter Network Management,Microwave Radio,Mobile Device,Network Management,Operational Device Management,Operating System,Operational Technology,Payment Processing,Personal Productivity,Power Supply,Remote Access,Reporting,RISC Server,Routers &amp; Switches,Rugged Laptop,SCADA Radio,Scientific and Statistical,Security Assessment,Security Event Management,Security Reporting,Smartphone,Supply Chain Management,Tablet,TDM Multiplexer,Telephony,Thin Client,Trunked Radio,Two Factor Authentication,Web Service,Wireless Data Service,Wireless Telecommunication Service,Work and Asset Management,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Version" type="String" description="" unit="" values="" default=""/>
+					<Tag name="SnSystemId" type="String" description="" unit="" values="" default=""/>
+					<Tag name="VendorPatchReleaseCycle" type="String" description="" unit="" values="" default=""/>
+					<Tag name="SoftwareServiceType" type="enumeration" description="" unit="" values="IaaS,OnPremise,PaaS,SaaS,TaaS" default="Not Currently Defined"/>
+					<Tag name="StandardDomain" type="enumeration" description="" unit="" values="Security Domain (SD),Enterprise System Management Domain (ESM),Application Domain (APP),Database Domain (DB),Information Domain (INF),Integration Domain (INT),Networking and Telecommunications Domain (NET),Platform Domain (PLA),Not a Standard" default="Not a Standard"/>
+					<Tag name="StandardType" type="enumeration" description="" unit="" values="Emerging,Precontain,Mainstream,Postcontain,Retiring,Rejected,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="OperationalStatus" type="enumeration" description="" unit="" values="Steady State (On-Premise),Steady State (Cloud),Future State (On-Premise),Future State (Cloud),Planned to Retire,Retired,Transition Period,Not Currently Defined" default="Not Currently Defined"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUBusinessCapability" metatype="CSUBusinessCapability" notes="" cx="120" cy="35" bgcolor="16777215" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk0GCAAAAAAAADYAAAAoAAAAGgAAABkAAAABABgAAAAAANAHAAASFwAAEhcAAAAAAAAAAAAA
+/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//
+//39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9
+/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39
+/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39
+/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39
+/f39/f39/f0AAOHh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh
+4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4/39/f39/f39/f39/f39/QAAvr7Bvr7Bvr7Bvr7Bvr7Bvr7B
+vr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7B/f39/f39/f39
+/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+AAA=</Icon>
+				<AppliesTo>
+					<Apply type="Requirement">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Category" type="enumeration" description="" unit="" values="Asset,Corporate,Technology,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Type" type="enumeration" description="" unit="" values="Competitive,Differentiating,Commodity,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Current Maturity Level" type="enumeration" description="" unit="" values="Initial (Level 1),Managed (Level 2),Standardized (Level 3),Predictable (Level 4),Innovating (Level 5),Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Current Performance Level" type="enumeration" description="" unit="" values="Very Poor,Poor,Acceptable,Good,Very Good,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Future Maturity Level" type="enumeration" description="" unit="" values="Initial (Level 1),Managed (Level 2),Standardized (Level 3),Predictable (Level 4),Innovating (Level 5),Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Future Performance Level" type="enumeration" description="" unit="" values="Very Poor,Poor,Acceptable,Good,Very Good,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Investment Disposition" type="" description="" unit="" values="" default="Not Currently Defined"/>
+					<Tag name="Ave Health Score" type="int" description="" unit="" values="" default=""/>
+					<Tag name="Ave Risk Score" type="int" description="" unit="" values="" default=""/>
+					<Tag name="Total Annual Cost" type="int" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUBusinessCapability-Archimate" metatype="Capability" notes="" cx="220" cy="35" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Capability" baseStereotypes="ArchiMate3::ArchiMate_Capability">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Maturity: Current State" type="" description="" unit="" values="" default=""/>
+					<Tag name="Category" type="enumeration" description="" unit="" values="Asset,Corporate,Technology,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Type" type="enumeration" description="" unit="" values="Competitive,Differentiating,Commodity,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Current Maturity Level" type="enumeration" description="" unit="" values="Initial (Level 1),Managed (Level 2),Standardized (Level 3),Predictable (Level 4),Innovating (Level 5),Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Current Performance Level" type="enumeration" description="" unit="" values="Very Poor,Poor,Acceptable,Good,Very Good,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Future Maturity Level" type="enumeration" description="" unit="" values="Initial (Level 1),Managed (Level 2),Standardized (Level 3),Predictable (Level 4),Innovating (Level 5),Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Future Performance Level" type="enumeration" description="" unit="" values="Very Poor,Poor,Acceptable,Good,Very Good,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Investment Disposition" type="" description="" unit="" values="" default="Not Currently Defined"/>
+					<Tag name="Ave Health Score" type="int" description="" unit="" values="" default=""/>
+					<Tag name="Ave Risk Score" type="int" description="" unit="" values="" default=""/>
+					<Tag name="Total Annual Cost" type="int" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUBusinessFunction" metatype="CSUBusinessFunction" notes="" cx="135" cy="60" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk0GCAAAAAAAADYAAAAoAAAAGgAAABkAAAABABgAAAAAANAHAAASFwAAEhcAAAAAAAAAAAAA
+/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//
+//39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/QAAMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3t
+MX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3t/f39/f39/f39/f39/f39AAAxfe0xfe0xfe0x
+fe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe39
+/f39/f39/f39/f39/f0AADF97TF97TF97TF97TF97TF97TF97TF97TF97TF97TF97TF97TF9
+7TF97TF97TF97TF97TF97TF97TF97TF97f39/f39/f39/f39/f39/QAAMX3tMX3tMX3tMX3t
+MX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3t/f39
+/f39/f39/f39/f39AAAxfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0x
+fe0xfe0xfe0xfe0xfe0xfe0xfe0xfe39/f39/f39/f39/f39/f0AAEWI7UWI7UWI7UWI7UWI
+7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7f39/f39
+/f39/f39/f39/QAAga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7w
+ga7wga7wga7wga7wga7wga7wga7w/f39/f39/f39/f39/f39AAC/1PS/1PS/1PS/1PS/1PS/
+1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PT9/f39/f39
+/f39/f39/f0AAOju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju
+9eju9eju9eju9eju9eju9eju9f39/f39/f39/f39/f39/QAAdabwdabwdabwdabwdabwdabw
+dabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabw/f39/f39/f39
+/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+AAA=</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSUBusinessService" metatype="CSUBusinessService" notes="" cx="135" cy="60" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk0GCAAAAAAAADYAAAAoAAAAGgAAABkAAAABABgAAAAAANAHAAASFwAAEhcAAAAAAAAAAAAA
+/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//
+//39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/QAAMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3t
+MX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3t/f39/f39/f39/f39/f39AAAxfe0xfe0xfe0x
+fe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe39
+/f39/f39/f39/f39/f0AADF97TF97TF97TF97TF97TF97TF97TF97TF97TF97TF97TF97TF9
+7TF97TF97TF97TF97TF97TF97TF97TF97f39/f39/f39/f39/f39/QAAMX3tMX3tMX3tMX3t
+MX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3t/f39
+/f39/f39/f39/f39AAAxfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0x
+fe0xfe0xfe0xfe0xfe0xfe0xfe0xfe39/f39/f39/f39/f39/f0AAEWI7UWI7UWI7UWI7UWI
+7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7f39/f39
+/f39/f39/f39/QAAga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7w
+ga7wga7wga7wga7wga7wga7wga7w/f39/f39/f39/f39/f39AAC/1PS/1PS/1PS/1PS/1PS/
+1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PT9/f39/f39
+/f39/f39/f0AAOju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju
+9eju9eju9eju9eju9eju9eju9f39/f39/f39/f39/f39/QAAdabwdabwdabwdabwdabwdabw
+dabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabw/f39/f39/f39
+/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+AAA=</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSUCapability" metatype="CSUCapability" notes="The element that represents the Capability Business Entity in the What Classification of the Business Mgmt Perspective of the Zachman Framework. " cx="120" cy="70" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk0GCAAAAAAAADYAAAAoAAAAGgAAABkAAAABABgAAAAAANAHAAASFwAAEhcAAAAAAAAAAAAA
+/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//
+//39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/QAAMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3t
+MX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3t/f39/f39/f39/f39/f39AAAxfe0xfe0xfe0x
+fe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe39
+/f39/f39/f39/f39/f0AADF97TF97TF97TF97TF97TF97TF97TF97TF97TF97TF97TF97TF9
+7TF97TF97TF97TF97TF97TF97TF97TF97f39/f39/f39/f39/f39/QAAMX3tMX3tMX3tMX3t
+MX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3t/f39
+/f39/f39/f39/f39AAAxfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0x
+fe0xfe0xfe0xfe0xfe0xfe0xfe0xfe39/f39/f39/f39/f39/f0AAEWI7UWI7UWI7UWI7UWI
+7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7f39/f39
+/f39/f39/f39/QAAga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7w
+ga7wga7wga7wga7wga7wga7wga7w/f39/f39/f39/f39/f39AAC/1PS/1PS/1PS/1PS/1PS/
+1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PT9/f39/f39
+/f39/f39/f0AAOju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju
+9eju9eju9eju9eju9eju9eju9f39/f39/f39/f39/f39/QAAdabwdabwdabwdabwdabwdabw
+dabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabw/f39/f39/f39
+/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+AAA=</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIANZ8ikeHbHUbZAEAABIEAAAHABEAc3RyLmRhdFVUDQAHk5xpVpOcaVaTnGlW
+lVPLTsMwEJxrkPiHKLkUCQSteIhHuaBeucAdtU0aKiVOlJRKAfHvzK7rxBWvVivbG3tmvTvr
+NHjFFBVShCjoLWFwiAN86Fxzf44V9w0y5Pwa4AzHOoac+/UIt8pIiFngiXHeFT3ESFFXHibQ
+eUpsggZvmHF2WQwQ4ZF+Qf8BJdeKXzVzkB3DNWK0sLvdeS62jD5a+E8sm42tNSDrhec5c894
+GmLMEbF+i03JjLoK1ntgU9a5VBVnquGCXym9pOOZTZaOY3kNd1aKzmlzVpBz1NRohAuaaH+p
+q6/t/j2z/QhwSqvIlzewItNoN+4Q45nRMtywry2zkvoKTBQldbU8b1XvGPdk9HF/jmYjSJ6l
+sndjxp1K8Rbys1Os9+QVil41GZJjqT36rozf/3BjwpL+yN09e6zvcqIdckhrPrcgdq1dK5nz
+Cc61O9ee1g4pL8d0SEHsjpM/6m+cu9lHBr9g/FtFzS9QSwECFwsUAAAACADWfIpHh2x1G2QB
+AAASBAAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHk5xpVlBLBQYAAAAAAQABAD4A
+AACaAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSUDataAttribute" metatype="CSUDataAttribute" notes="" cx="120" cy="100" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ERD::ERD_Attribute" baseStereotypes="ERD::ERD_Attribute">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+						<Property name="_tagGroupings" value="Required=General;ReadOnly=General;DefaultValue=General;MasterDataElement=General;isMasterDataAttribute=General;IsUsed=General;SecurityClassification=General;UniqueID=General;ProcessAreas=General;RegulatoryImplications=General;DataSteward=General;Precision=Size;FieldLength=Size;Scale=Size;Format=Source;SystemName=Source;DataType=Source;FieldValue=Source;ExcelLoad=Source;FieldLabel=Source;SystemRef=Source;TriggersWorkflow=Workflow;WorkflowDescription=Workflow;TriggerAction=Workflow;"/>
+						<Property name="_tagGroupStates" value="Workflow=open;Size=open;Source=open;General=open;"/>
+						<Property name="_tagGroups" value="General,Size,Source,Workflow"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="DataType" type="" description="" unit="" values="" default=""/>
+					<Tag name="DefaultValue" type="" description="" unit="" values="" default=""/>
+					<Tag name="ExcelLoad" type="" description="" unit="" values="" default=""/>
+					<Tag name="FieldLabel" type="" description="" unit="" values="" default=""/>
+					<Tag name="FieldLength" type="" description="" unit="" values="" default=""/>
+					<Tag name="FieldValue" type="" description="" unit="" values="" default=""/>
+					<Tag name="Format" type="enumeration" description="" unit="" values="Standard,Custom" default="Standard"/>
+					<Tag name="isMasterDataAttribute" type="boolean" description="" unit="" values="true,false" default="false"/>
+					<Tag name="IsUsed" type="boolean" description="" unit="" values="true,false" default="true"/>
+					<Tag name="MasterDataElement" type="boolean" description="" unit="" values="true,false" default="false"/>
+					<Tag name="Precision" type="" description="" unit="" values="" default=""/>
+					<Tag name="ProcessAreas" type="" description="" unit="" values="" default=""/>
+					<Tag name="ReadOnly" type="boolean" description="" unit="" values="true,false" default="false"/>
+					<Tag name="RegulatoryImplications" type="" description="" unit="" values="" default=""/>
+					<Tag name="Required" type="enumeration" description="" unit="" values="true,false,undefined" default="undefined"/>
+					<Tag name="Scale" type="" description="" unit="" values="" default=""/>
+					<Tag name="SecurityClassification" type="" description="" unit="" values="" default="Public"/>
+					<Tag name="SystemName" type="" description="" unit="" values="" default=""/>
+					<Tag name="TriggerAction" type="" description="" unit="" values="" default=""/>
+					<Tag name="TriggersWorkflow" type="boolean" description="" unit="" values="true,false" default="false"/>
+					<Tag name="UniqueID" type="" description="" unit="" values="" default=""/>
+					<Tag name="WorkflowDescription" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUDataConcept" metatype="CSUDataConcept" notes="" cx="135" cy="60" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk0GCAAAAAAAADYAAAAoAAAAGgAAABkAAAABABgAAAAAANAHAAASFwAAEhcAAAAAAAAAAAAA
+/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//
+//39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/QAAMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3t
+MX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3t/f39/f39/f39/f39/f39AAAxfe0xfe0xfe0x
+fe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe39
+/f39/f39/f39/f39/f0AADF97TF97TF97TF97TF97TF97TF97TF97TF97TF97TF97TF97TF9
+7TF97TF97TF97TF97TF97TF97TF97TF97f39/f39/f39/f39/f39/QAAMX3tMX3tMX3tMX3t
+MX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3tMX3t/f39
+/f39/f39/f39/f39AAAxfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0xfe0x
+fe0xfe0xfe0xfe0xfe0xfe0xfe0xfe39/f39/f39/f39/f39/f0AAEWI7UWI7UWI7UWI7UWI
+7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7UWI7f39/f39
+/f39/f39/f39/QAAga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7wga7w
+ga7wga7wga7wga7wga7wga7wga7w/f39/f39/f39/f39/f39AAC/1PS/1PS/1PS/1PS/1PS/
+1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PS/1PT9/f39/f39
+/f39/f39/f0AAOju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju9eju
+9eju9eju9eju9eju9eju9eju9f39/f39/f39/f39/f39/QAAdabwdabwdabwdabwdabwdabw
+dabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabwdabw/f39/f39/f39
+/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+AAA=</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSUDataConnector" metatype="CSUDataConnector" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ERD::ERD_Connector" baseStereotypes="ERD::ERD_Connector">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="_lineStyle" value="orthogonalS"/>
+						<Property name="compositionKind" value="none"/>
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="LogicalAssociationRef"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUDataElement" metatype="CSUDataElement" notes="" cx="120" cy="100" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ERD::ERD_Entity" baseStereotypes="ERD::ERD_Entity">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="isMasterDataEntity" type="boolean" description="" unit="" values="true,false" default="false"/>
+					<Tag name="MasterDataElement" type="boolean" description="" unit="" values="true,false" default="false"/>
+					<Tag name="RefreshRate" type="" description="" unit="" values="" default=""/>
+					<Tag name="SecurityClassification" type="" description="" unit="" values="" default="Public"/>
+					<Tag name="SystemName" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUDataRelationship" metatype="CSUDataRelationship" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ERD::ERD_Connector" baseStereotypes="ERD::ERD_Connector">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMxgiEmgkMoq7wAAAAADAAAHABEAc3RyLmRhdFVUDQAH3kxJWN5MSVjeTElY
+jZJBa8JAEIXfVaH/oXhSiGgrtkKPbcFzEHq2mJhgYkMSe5H8d7+dpgQMMR52Zmfem7eTycw0
+06PelSvQViW2IP6Urw+8T5xYPtaPjmARt8yQiEyqb52s4kFDO46xhRGQS7nFVDXoub4P4JWg
+OTYz/QhkrIneajxF/ReVEu+QuTxOgyem3OCLXsbSGM52c17vVJn26LS7iRUasuZrC22we6IR
++UJfNvsDkcfZMJUTmRHVk7r6XPv2XBZaXb3U7uav52f8LdYLjPuUpr1a7a6qjv/aP/En0GtO
+AGPXsTkh9YltreO4PctROlDzz2/YlS5QSwECFwsUAAAACADMYIhJoJDKKu8AAAAAAwAABwAJ
+AAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH3kxJWFBLBQYAAAAAAQABAD4AAAAlAQAA
+AAA=</Image>
+				<TaggedValues>
+					<Tag name="isWeak" type="Boolean" description="" unit="" values="True,False" default="False"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUDatabaseInstance" metatype="CSUDatabaseInstance" notes="The element that represents the CSU Database Technology Entity in the What Classification of the Engineer Perspective of the Zachman Framework. " cx="135" cy="60" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="OracleVersion" type="" description="" unit="" values="" default="Not Currently Defined"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUDbInstanceDeployment" metatype="CSUDbInstanceDeployment" notes="" cx="135" cy="60" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk0GCAAAAAAAADYAAAAoAAAAGgAAABkAAAABABgAAAAAANAHAAASFwAAEhcAAAAAAAAAAAAA
+/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//
+//39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9
+/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39
+/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39
+/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39
+/f39/f39/f0AAOHh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh
+4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4/39/f39/f39/f39/f39/QAAvr7Bvr7Bvr7Bvr7Bvr7Bvr7B
+vr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7B/f39/f39/f39
+/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+AAA=</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="DbRole" type="enumeration" description="" unit="" values="Primary,Standby,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="PatchWindow" type="String" description="" unit="" values="" default=""/>
+					<Tag name="SupportGroup" type="String" description="" unit="" values="" default=""/>
+					<Tag name="SnSystemId" type="String" description="" unit="" values="" default=""/>
+					<Tag name="DeploymentStatus" type="enumeration" description="" unit="" values="Decom,Not Ready,Operational" default="Not Currently Defined"/>
+					<Tag name="PatchLevel" type="String" description="" unit="" values="" default=""/>
+					<Tag name="PatchDate" type="Date" description="" unit="" values="" default=""/>
+					<Tag name="DecomDate" type="Date" description="" unit="" values="" default=""/>
+					<Tag name="Environment" type="enumeration" description="" unit="" values="DEV,PRD,QA,TST,VP,Not Currently Defined" default="Not Currently Defined"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUDiagramNote" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFhgV0r/jAmYDwEAAHwDAAAHABEAc3RyLmRhdFVUDQAHVM+uWFTPrlhUz65Y
+rZHRSsMwFIb/a8F3CN3NBJEJu1K8EN0LiPejc11X6Nqydhcie3e/nJh1Y0ydSMhJcpLz5c+f
+VkulapTJacWsUKVLXejD4pr8mzrylXKVrIYa6dr6LbEfr3RvFc5iqjmt1UYzYrxhqAROyj2e
+WjM2rNbwfaZiTOC5HdlpvEc+zWypzExrzezd8ufzg/Ke7H7Q2ru01JS9Eu9ydpwe6AlV4ZxX
+lnzdEXu463x3G2r8D3Wcruztj/jRoaBm5w7uAI8KiDlrr/6G2J8YUPEdq4VQa7EjpaZ/Rc5T
+F/TM/iDQugPe9oSLv/+dvzjq9RTm4cwcDBpLsrEqqI9viXX/+QOHrj3pRROyr8RnWpgdO7XV
+J1BLAQIXCxQAAAAIAFhgV0r/jAmYDwEAAHwDAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0
+VVQFAAdUz65YUEsFBgAAAAABAAEAPgAAAEUBAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSUHardware" metatype="CSUHardware" notes="The element that represents the Hardware Entity in the What Classification of the Technician Perspective of the Zachman Framework. " cx="135" cy="60" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Location" type="String" description="" unit="" values="" default=""/>
+					<Tag name="SupportGroup" type="String" description="" unit="" values="" default=""/>
+					<Tag name="ModelNumber" type="String" description="" unit="" values="" default=""/>
+					<Tag name="SerialNumber" type="String" description="" unit="" values="" default=""/>
+					<Tag name="CpuType" type="String" description="" unit="" values="" default=""/>
+					<Tag name="CpuCount" type="Number" description="" unit="" values="" default=""/>
+					<Tag name="CpuSpeed" type="String" description="" unit="" values="" default=""/>
+					<Tag name="PurchaseDate" type="Date" description="" unit="" values="" default=""/>
+					<Tag name="InstallDate" type="Date" description="" unit="" values="" default=""/>
+					<Tag name="DecomDate" type="Date" description="" unit="" values="" default=""/>
+					<Tag name="WarrentyExpiration" type="Date" description="" unit="" values="" default=""/>
+					<Tag name="SnSystemId" type="String" description="" unit="" values="" default=""/>
+					<Tag name="CpuCoreCount" type="Number" description="" unit="" values="" default=""/>
+					<Tag name="PatchWindow" type="String" description="" unit="" values="" default=""/>
+					<Tag name="Domain" type="String" description="" unit="" values="" default=""/>
+					<Tag name="PatchLevel" type="String" description="" unit="" values="" default=""/>
+					<Tag name="PatchDate" type="Date" description="" unit="" values="" default=""/>
+					<Tag name="StandardDomain" type="enumeration" description="" unit="" values="Security Domain (SD),Enterprise System Management Domain (ESM),Application Domain (APP),Database Domain (DB),Information Domain (INF),Integration Domain (INT),Networking and Telecommunications Domain (NET),Platform Domain (PLA),Not a Standard" default="Not a Standard"/>
+					<Tag name="StandardType" type="enumeration" description="" unit="" values="Emerging,Precontain,Mainstream,Postcontain,Retiring,Rejected,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="TechnologyType" type="enumeration" description="" unit="" values="Advanced Threat Detection,Antivirus,Appliance Server,Application Management,Automated Meter Reading (AMR),Battery Bank,Business Intelligence,CISC Server,Collaboration Management,Compliance Management,Computer Aided Engineering,Configuration Management,Contact Center Software,Customer Information System,Customer Service and Support,Database Management,Desktop,Development Environment,Electronic Payments,Energy Metering,Energy Trading and Risk Management,Enterprise Content Management,Enterprise Systems Management,Environmental Management,Fiber Multiplexer,Field Service and Dispatch,Financial Management,Firewall,Forensics,Geographic Information System,Head-End System,Host Intrusion Prevention,Human Resources Management,Hvac,Identity and Access Management (IAM),Integration Middleware,Interactive Voice Response,Intrusion Prevention System,Laptop,Learning Management,Meter Data Management,Meter Network Management,Microwave Radio,Mobile Device,Network Management,Operational Device Management,Operating System,Operational Technology,Payment Processing,Personal Productivity,Power Supply,Remote Access,Reporting,RISC Server,Routers &amp; Switches,Rugged Laptop,SCADA Radio,Scientific and Statistical,Security Assessment,Security Event Management,Security Reporting,Smartphone,Supply Chain Management,Tablet,TDM Multiplexer,Telephony,Thin Client,Trunked Radio,Two Factor Authentication,Web Service,Wireless Data Service,Wireless Telecommunication Service,Work and Asset Management,Not Currently Defined" default="Not Currently Defined"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUIntegration" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSUIntegrationConnector" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Connector">
+						<Property name="direction" value="Source -&gt; Destination"/>
+						<Property name="kind" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="InterfaceType" type="enumeration" description="" unit="" values="File,FTP,RESTful,SFTP,SOAP,Not Currently Defined" default="Not Currently Defined"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSULanguage" metatype="CSULanguage" notes="" cx="135" cy="60" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSULogicalDataEntity" metatype="CSULogicalDataEntity" notes="The element that represents the CSU Logical Data Entity in the What Classification of the Architect Perspective of the Zachman Framework. " cx="135" cy="60" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//AP//AP//AP//AP//AP//
+AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP///f39/f39/f39
+/f39AAD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/
+/wD//wD//wD//wD///39/f39/f39/f39/QAA//8A//8A//8A//8A//8A//8A//8A//8A//8A
+//8A//8A//8A//8A//8A//8A//8A//8A//8A//8A//8A///9/f39/f39/f39/f0AAP//AP//
+AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//
+AP///f39/f39/f39/f39AAD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/
+/wD//wD//wD//wD//wD//wD//wD//wD///39/f39/f39/f39/QAY/v4Y/v4Y/v4Y/v4Y/v4Y
+/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v79/f39/f39
+/f39/f0AY/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38
+Y/38Y/38Y/38Y/38Y/38/f39/f39/f39/f39ALD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7
++bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+f39/f39/f39/f39/QDk+vjk
++vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk
++vjk+vj9/f39/f39/f39/f0AVP38VP38VP38VP38VP38VP38VP38VP38VP38VP38VP38VP38
+VP38VP38VP38VP38VP38VP38VP38VP38VP38/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSULogicalEnum" metatype="CSULogicalEnum" notes="The element that represents the CSU Logical Enumeration Entity in the What Classification of the Architect Perspective of the Zachman Framework. " cx="135" cy="60" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//AP//AP//AP//AP//AP//
+AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP///f39/f39/f39
+/f39AAD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/
+/wD//wD//wD//wD///39/f39/f39/f39/QAA//8A//8A//8A//8A//8A//8A//8A//8A//8A
+//8A//8A//8A//8A//8A//8A//8A//8A//8A//8A//8A///9/f39/f39/f39/f0AAP//AP//
+AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//
+AP///f39/f39/f39/f39AAD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/
+/wD//wD//wD//wD//wD//wD//wD//wD///39/f39/f39/f39/QAY/v4Y/v4Y/v4Y/v4Y/v4Y
+/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v79/f39/f39
+/f39/f0AY/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38
+Y/38Y/38Y/38Y/38Y/38/f39/f39/f39/f39ALD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7
++bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+f39/f39/f39/f39/QDk+vjk
++vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk
++vjk+vj9/f39/f39/f39/f0AVP38VP38VP38VP38VP38VP38VP38VP38VP38VP38VP38VP38
+VP38VP38VP38VP38VP38VP38VP38VP38VP38/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Enumeration"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSUMessage" metatype="CSUMessage" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSUOracleDatabase" metatype="CSUOracleDatabase" notes="The element that represents the CSU Database Technology Entity in the What Classification of the Engineer Perspective of the Zachman Framework. " cx="135" cy="60" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="OracleVersion" type="" description="" unit="" values="" default="Not Currently Defined"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUPhysicalEnum" metatype="CSUPhysicalEnum" notes="The element that represents the Physical Enumeration Entity in the What Classification of the Architect Perspective of the Zachman Framework. " cx="120" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Enumeration"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSUPhysicalServer" metatype="CSUPhysicalServer" notes="The element that represents the Physical Server Technology Entity in the What Classification of the Technician Perspective of the Zachman Framework. " cx="135" cy="60" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSUProtocol" metatype="CSUProtocol" notes="" cx="135" cy="60" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="StandardDomain" type="enumeration" description="" unit="" values="Security Domain (SD),Enterprise System Management Domain (ESM),Application Domain (APP),Database Domain (DB),Information Domain (INF),Integration Domain (INT),Networking and Telecommunications Domain (NET),Platform Domain (PLA),Not a Standard" default="Not a Standard"/>
+					<Tag name="StandardType" type="enumeration" description="" unit="" values="Emerging,Precontain,Mainstream,Postcontain,Retiring,Rejected,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="TechnologyType" type="enumeration" description="" unit="" values="Advanced Threat Detection,Antivirus,Appliance Server,Application Management,Automated Meter Reading (AMR),Battery Bank,Business Intelligence,CISC Server,Collaboration Management,Compliance Management,Computer Aided Engineering,Configuration Management,Contact Center Software,Customer Information System,Customer Service and Support,Database Management,Desktop,Development Environment,Electronic Payments,Energy Metering,Energy Trading and Risk Management,Enterprise Content Management,Enterprise Systems Management,Environmental Management,Fiber Multiplexer,Field Service and Dispatch,Financial Management,Firewall,Forensics,Geographic Information System,Head-End System,Host Intrusion Prevention,Human Resources Management,Hvac,Identity and Access Management (IAM),Integration Middleware,Interactive Voice Response,Intrusion Prevention System,Laptop,Learning Management,Meter Data Management,Meter Network Management,Microwave Radio,Mobile Device,Network Management,Operational Device Management,Operating System,Operational Technology,Payment Processing,Personal Productivity,Power Supply,Remote Access,Reporting,RISC Server,Routers &amp; Switches,Rugged Laptop,SCADA Radio,Scientific and Statistical,Security Assessment,Security Event Management,Security Reporting,Smartphone,Supply Chain Management,Tablet,TDM Multiplexer,Telephony,Thin Client,Trunked Radio,Two Factor Authentication,Web Service,Wireless Data Service,Wireless Telecommunication Service,Work and Asset Management,Not Currently Defined" default="Not Currently Defined"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUProviderPort" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Port">
+						<Property name="isBehavior" value="false"/>
+						<Property name="isConjugated" value="false"/>
+						<Property name="isService" value="true"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSURequestPort" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Port">
+						<Property name="isBehavior" value="false"/>
+						<Property name="isConjugated" value="false"/>
+						<Property name="isService" value="true"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSURoadmapTimeline" metatype="CSURoadmapTimeline" notes="" cx="100" cy="10" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk0GCAAAAAAAADYAAAAoAAAAGgAAABkAAAABABgAAAAAANAHAAASFwAAEhcAAAAAAAAAAAAA
+/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//
+//39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9
+/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39
+/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39
+/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39
+/f39/f39/f0AAOHh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh
+4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4/39/f39/f39/f39/f39/QAAvr7Bvr7Bvr7Bvr7Bvr7Bvr7B
+vr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7B/f39/f39/f39
+/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+AAA=</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALqD9Eq2eR+wJQEAAFgEAAAHABEAc3RyLmRhdFVUDQAHadpwWWnacFlp2nBZ
+vZLPSsNAEMa/awTfIbSXCoJ/wIvSQ0HxAfQuqY0xuG0kWb1I393fZrumW6OEIrLs7O7M7Mx8
+30yjZ2V6Va5US26lVvrQoQ6UoKnRP8qiX6mQ4TXRqY6xeHnG6W8XrCNdbX6G/5kWrEZvmiND
+polGvFzUGrngtGhHOxHPo4i/xZpTWUadL99iDI2Qg8/ZhlXizy5C2oPG+wQmE73rAYuB34Jc
+qaZsV3mFt0UueYUMCZH7vB3/T3hvew7vkL91OBJqr9t+25aDse41060udfeF5nqDZoy9+7mO
+urzNQ9eJ/8LfoLNoS6yGzBWyovaYhRj3/pz9jDyeoF30/Xgc+wW2GNEJKydS2VboGHWoS6RB
+G/6GXt20eUOf/n4yDDKejjhj32Ss2Z9QSwECFwsUAAAACAC6g/RKtnkfsCUBAABYBAAABwAJ
+AAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHadpwWVBLBQYAAAAAAQABAD4AAABbAQAA
+AAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="StartDate" type="String" description="" unit="" values="" default=""/>
+					<Tag name="EndDate" type="String" description="" unit="" values="" default=""/>
+					<Tag name="OperationalStatus" type="enumeration" description="" unit="" values="Steady State (On-Premise),Steady State (Cloud),Future State (On-Premise),Future State (Cloud),Planned to Retire,Retired,Transition Period,Not Currently Defined" default="Not Currently Defined"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUSaaSApplication" metatype="CSUSaaSApplication" notes="The element that represents the CSU SaaS Entity in the What Classification of the Architect Perspective of the Zachman Framework. " cx="135" cy="60" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//AP//AP//AP//AP//AP//
+AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP///f39/f39/f39
+/f39AAD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/
+/wD//wD//wD//wD///39/f39/f39/f39/QAA//8A//8A//8A//8A//8A//8A//8A//8A//8A
+//8A//8A//8A//8A//8A//8A//8A//8A//8A//8A//8A///9/f39/f39/f39/f0AAP//AP//
+AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//
+AP///f39/f39/f39/f39AAD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/
+/wD//wD//wD//wD//wD//wD//wD//wD///39/f39/f39/f39/QAY/v4Y/v4Y/v4Y/v4Y/v4Y
+/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v79/f39/f39
+/f39/f0AY/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38
+Y/38Y/38Y/38Y/38Y/38/f39/f39/f39/f39ALD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7
++bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+f39/f39/f39/f39/QDk+vjk
++vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk
++vjk+vj9/f39/f39/f39/f0AVP38VP38VP38VP38VP38VP38VP38VP38VP38VP38VP38VP38
+VP38VP38VP38VP38VP38VP38VP38VP38VP38/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="CSUSoftware" metatype="CSUSoftware" notes="CSU Definition:  CSUSoftware is a group of code or executables.  It can be of type: application, desktop or infrastructure.&#xA;&#xA;The CSU Software Entity is generally located in the What Classification of the Architect Perspective of the Zachman Framework." cx="135" cy="60" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="SoftwareType" type="enumeration" description="" unit="" values="Application,Desktop,Infrastructure" default="Not Currently Defined"/>
+					<Tag name="TechnologyType" type="enumeration" description="" unit="" values="Advanced Threat Detection,Antivirus,Appliance Server,Application Management,Automated Meter Reading (AMR),Battery Bank,Business Intelligence,CISC Server,Collaboration Management,Compliance Management,Computer Aided Engineering,Configuration Management,Contact Center Software,Customer Information System,Customer Service and Support,Database Management,Desktop,Development Environment,Electronic Payments,Energy Metering,Energy Trading and Risk Management,Enterprise Content Management,Enterprise Systems Management,Environmental Management,Fiber Multiplexer,Field Service and Dispatch,Financial Management,Firewall,Forensics,Geographic Information System,Head-End System,Host Intrusion Prevention,Human Resources Management,Hvac,Identity and Access Management (IAM),Integration Middleware,Interactive Voice Response,Intrusion Prevention System,Laptop,Learning Management,Meter Data Management,Meter Network Management,Microwave Radio,Mobile Device,Network Management,Operational Device Management,Operating System,Operational Technology,Payment Processing,Personal Productivity,Power Supply,Remote Access,Reporting,RISC Server,Routers &amp; Switches,Rugged Laptop,SCADA Radio,Scientific and Statistical,Security Assessment,Security Event Management,Security Reporting,Smartphone,Supply Chain Management,Tablet,TDM Multiplexer,Telephony,Thin Client,Trunked Radio,Two Factor Authentication,Web Service,Wireless Data Service,Wireless Telecommunication Service,Work and Asset Management,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Version" type="String" description="" unit="" values="" default=""/>
+					<Tag name="SnSystemId" type="String" description="" unit="" values="" default=""/>
+					<Tag name="VendorPatchReleaseCycle" type="String" description="" unit="" values="" default=""/>
+					<Tag name="SoftwareServiceType" type="enumeration" description="" unit="" values="IaaS,OnPremise,PaaS,SaaS,TaaS" default="Not Currently Defined"/>
+					<Tag name="StandardDomain" type="enumeration" description="" unit="" values="Security Domain (SD),Enterprise System Management Domain (ESM),Application Domain (APP),Database Domain (DB),Information Domain (INF),Integration Domain (INT),Networking and Telecommunications Domain (NET),Platform Domain (PLA),Not a Standard" default="Not a Standard"/>
+					<Tag name="StandardType" type="enumeration" description="" unit="" values="Emerging,Precontain,Mainstream,Postcontain,Retiring,Rejected,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="OperationalStatus" type="enumeration" description="" unit="" values="Steady State (On-Premise),Steady State (Cloud),Future State (On-Premise),Future State (Cloud),Planned to Retire,Retired,Transition Period,Not Currently Defined" default="Not Currently Defined"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUSoftwareComponent" metatype="CSUSoftwareComponent" notes="" cx="135" cy="60" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="SoftwareType" type="enumeration" description="" unit="" values="Application,Desktop,Infrastructure" default="Not Currently Defined"/>
+					<Tag name="TechnologyType" type="enumeration" description="" unit="" values="Advanced Threat Detection,Antivirus,Appliance Server,Application Management,Automated Meter Reading (AMR),Battery Bank,Business Intelligence,CISC Server,Collaboration Management,Compliance Management,Computer Aided Engineering,Configuration Management,Contact Center Software,Customer Information System,Customer Service and Support,Database Management,Desktop,Development Environment,Electronic Payments,Energy Metering,Energy Trading and Risk Management,Enterprise Content Management,Enterprise Systems Management,Environmental Management,Fiber Multiplexer,Field Service and Dispatch,Financial Management,Firewall,Forensics,Geographic Information System,Head-End System,Host Intrusion Prevention,Human Resources Management,Hvac,Identity and Access Management (IAM),Integration Middleware,Interactive Voice Response,Intrusion Prevention System,Laptop,Learning Management,Meter Data Management,Meter Network Management,Microwave Radio,Mobile Device,Network Management,Operational Device Management,Operating System,Operational Technology,Payment Processing,Personal Productivity,Power Supply,Remote Access,Reporting,RISC Server,Routers &amp; Switches,Rugged Laptop,SCADA Radio,Scientific and Statistical,Security Assessment,Security Event Management,Security Reporting,Smartphone,Supply Chain Management,Tablet,TDM Multiplexer,Telephony,Thin Client,Trunked Radio,Two Factor Authentication,Web Service,Wireless Data Service,Wireless Telecommunication Service,Work and Asset Management,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="Version" type="String" description="" unit="" values="" default=""/>
+					<Tag name="SnSystemId" type="String" description="" unit="" values="" default=""/>
+					<Tag name="VendorPatchReleaseCycle" type="String" description="" unit="" values="" default=""/>
+					<Tag name="SoftwareServiceType" type="enumeration" description="" unit="" values="IaaS,OnPremise,PaaS,SaaS,TaaS" default="Not Currently Defined"/>
+					<Tag name="StandardDomain" type="enumeration" description="" unit="" values="Security Domain (SD),Enterprise System Management Domain (ESM),Application Domain (APP),Database Domain (DB),Information Domain (INF),Integration Domain (INT),Networking and Telecommunications Domain (NET),Platform Domain (PLA),Not a Standard" default="Not a Standard"/>
+					<Tag name="StandardType" type="enumeration" description="" unit="" values="Emerging,Precontain,Mainstream,Postcontain,Retiring,Rejected,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="OperationalStatus" type="enumeration" description="" unit="" values="Steady State (On-Premise),Steady State (Cloud),Future State (On-Premise),Future State (Cloud),Planned to Retire,Retired,Transition Period,Not Currently Defined" default="Not Currently Defined"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUSoftwareSuite" metatype="CSUSoftwareSuite" notes="" cx="135" cy="60" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk0GCAAAAAAAADYAAAAoAAAAGgAAABkAAAABABgAAAAAANAHAAASFwAAEhcAAAAAAAAAAAAA
+/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//
+//39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9
+/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39
+/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39
+/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39
+/f39/f39/f0AAOHh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh
+4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4/39/f39/f39/f39/f39/QAAvr7Bvr7Bvr7Bvr7Bvr7Bvr7B
+vr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7B/f39/f39/f39
+/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+AAA=</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="SuiteName" type="enumeration" description="" unit="" values="Oracle E-Business Suite,Maximo,Oracle Utilities Suite,Office365,Not Currently Defined" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUSolutionArchitecture" metatype="CSUSolutionArchitecture" notes="" cx="135" cy="60" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk0GCAAAAAAAADYAAAAoAAAAGgAAABkAAAABABgAAAAAANAHAAASFwAAEhcAAAAAAAAAAAAA
+/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//
+//39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9
+/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39
+/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39
+/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39
+/f39/f39/f0AAOHh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh
+4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4/39/f39/f39/f39/f39/QAAvr7Bvr7Bvr7Bvr7Bvr7Bvr7B
+vr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7B/f39/f39/f39
+/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+AAA=</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Phase" type="enumeration" description="" unit="" values="Current,Previous,Target,Transition,Not Currenty Defined" default="Not Currently Defined"/>
+					<Tag name="CSU_PlannedBeginDate" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUSystem" metatype="CSUSystem" notes="CSU Definition:  A CSUSystem is a collection of software, hardware and/or data components that supports one or many business services.&#xA;&#xA;The CSU System Entity is generally located in the What Classification of the Architect Perspective of the Zachman Framework. " cx="135" cy="60" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//AP//AP//AP//AP//AP//
+AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP///f39/f39/f39
+/f39AAD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/
+/wD//wD//wD//wD///39/f39/f39/f39/QAA//8A//8A//8A//8A//8A//8A//8A//8A//8A
+//8A//8A//8A//8A//8A//8A//8A//8A//8A//8A//8A///9/f39/f39/f39/f0AAP//AP//
+AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//
+AP///f39/f39/f39/f39AAD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/
+/wD//wD//wD//wD//wD//wD//wD//wD///39/f39/f39/f39/QAY/v4Y/v4Y/v4Y/v4Y/v4Y
+/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v4Y/v79/f39/f39
+/f39/f0AY/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38Y/38
+Y/38Y/38Y/38Y/38Y/38/f39/f39/f39/f39ALD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7
++bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+bD7+f39/f39/f39/f39/QDk+vjk
++vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk+vjk
++vjk+vj9/f39/f39/f39/f0AVP38VP38VP38VP38VP38VP38VP38VP38VP38VP38VP38VP38
+VP38VP38VP38VP38VP38VP38VP38VP38VP38/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="ShortName" type="String" description="" unit="" values="" default=""/>
+					<Tag name="AnnualFreezePeriodStart" type="String" description="" unit="" values="" default=""/>
+					<Tag name="AnnualFreezePeriodEnd" type="String" description="" unit="" values="" default=""/>
+					<Tag name="RPO" type="Number" description="" unit="" values="" default=""/>
+					<Tag name="RTO" type="Number" description="" unit="" values="" default=""/>
+					<Tag name="RequiredUptime" type="String" description="" unit="" values="" default=""/>
+					<Tag name="EnclaveClass" type="enumeration" description="" unit="" values="Gold,Silver,Bronze,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="OperationalStatus" type="enumeration" description="" unit="" values="Steady State (On-Premise),Steady State (Cloud),Future State (On-Premise),Future State (Cloud),Planned to Retire,Retired,Transition Period,Not Currently Defined" default="Not Currently Defined"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUTimelineGeneral" metatype="CSUTimelineGeneral" notes="CSU Definition:  CSUTimelineGeneral provides the ability to create timelines for general use.  " cx="140" cy="85" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk0GCAAAAAAAADYAAAAoAAAAGgAAABkAAAABABgAAAAAANAHAAASFwAAEhcAAAAAAAAAAAAA
+/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//
+//39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9
+/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39
+/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39
+/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39
+/f39/f39/f0AAOHh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh
+4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4/39/f39/f39/f39/f39/QAAvr7Bvr7Bvr7Bvr7Bvr7Bvr7B
+vr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7B/f39/f39/f39
+/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+AAA=</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAhaTEtYpBhkowEAAC4JAAAHABEAc3RyLmRhdFVUDQAH9E7fWfRO31n0Tt9Z
+1VVNS8NAFJxrBP9DSC8KgtYPEIsHQfHirXqWNkljMa2ySZQi/nfn7SbtJmkgVlKV0N3X7Ly3
+82YnSYInjPCKEC5mjKaY4wO72IHDO8V8yCshJsWdRoQYMl4gZrQHDwEzE1bysI9BKSvAC3w8
+c32s0ZfEJMwdsYpkKY6elTMnfqg5SeY78SkxGTMHFh/F/35eJcpZHOGAK2bsc7Yjm5VUDsgh
+IyPhbLqXLsbcMVvyWvBOudZJyzpzxjPG1fzTrTMxSiuOUildw6mP85a1YsgZhpw3rxHqntpy
+MfOqglvTxSAKvwpWPDqhR2NePtExf6riDvsUnI287fzAgZ/5XO+u8E21qzc8ciUmu4gYl8+E
+Sza+VlN0VNYT5LDed9DNih3jjJd0UI1+Uz2HWim9U8q3g9LaiXqB3q231LBX2rFZ8/oT0oX6
+0uGEaBu5DeX6DcoZre5xhVtc6H2NBte5Bm3VW70TulCtCf2fPVtW/kHzkG+g+MNwCVqrX36b
+dnECwjriWt25wnOq1TDfdWEvPgiWuUWPN5pl4axqnb9xDmWO6/Q34xdQSwECFwsUAAAACAAI
+WkxLWKQYZKMBAAAuCQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH9E7fWVBLBQYA
+AAAAAQABAD4AAADZAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="StartDate" type="String" description="" unit="" values="" default=""/>
+					<Tag name="EndDate" type="String" description="" unit="" values="" default=""/>
+					<Tag name="UserDefined" type="String" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUTimelineLocation" metatype="CSUTimelineLocation" notes="CSU Definition:  CSUTimelineLocation provides information regarding the location of an asset. &#xA;&#xA;The CSUTimelineLocation is generally used to define roadmaps for CSUApplications. " cx="140" cy="85" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk0GCAAAAAAAADYAAAAoAAAAGgAAABkAAAABABgAAAAAANAHAAASFwAAEhcAAAAAAAAAAAAA
+/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//
+//39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9
+/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39
+/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39
+/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39
+/f39/f39/f0AAOHh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh
+4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4/39/f39/f39/f39/f39/QAAvr7Bvr7Bvr7Bvr7Bvr7Bvr7B
+vr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7B/f39/f39/f39
+/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+AAA=</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOpDPEuR+5gQwgEAAHgJAAAHABEAc3RyLmRhdFVUDQAHebPMWXmzzFl5s8xZ
+1VZNS8NAFJxrBP9DaC8KgtYPEIuHouKlIFjv0iRtLcZYNqlSxP/uvN2k2SQtxEpaZOnuppk3
+O2/eS9oYLxhihhFcvHE3RYQv7GMPDr/J1mOOmJgEfY0YYcD9AiF3B2ghYGRMphYO0S1EBXiH
+j1fe9zT6mpiYsUOySJTi3LJiIuIHWpNEfhKfEDNnZNfSo3jtpyyTVMUJjnjHzB2u9s5WJcwB
+NcypSDSb7CULjyfOl7oW/KbIdVaTR9SFvE64CteMo8x1vnVVxnXFWZhEW5mpg8uaXJKdp7Pc
+nGOkc6qrxaw5g1vxxSCy3hWs9OuY/Rpy+ESH/KhSp9hVcDbqc+cP3fidrtXsVvVQOcMPPPNO
+SKUTnuzyWXGpzNfOSpyyniyH3L9Br3fvFBcckk15t0snHfqj9EkJ3xoqdUy8k9NctPGEHu5x
+hceCsz2Na2sv6tSl+hQ1URXJfEy0jdyGo501jgp/7qCcazy4TT1o13Qvf2804do69H/uZeHv
+4wE39N3uYtO34oCvazBlRhGR8mubX9etS/Fd3ERtJJ8J71V7Wp7CqfbJ/EOQOkmHBMvYLOc7
+rTLruTLPLiuU16WocZX/Zv4BUEsBAhcLFAAAAAgA6kM8S5H7mBDCAQAAeAkAAAcACQAAAAAA
+AAAAAACAAAAAAHN0ci5kYXRVVAUAB3mzzFlQSwUGAAAAAAEAAQA+AAAA+AEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="StartDate" type="String" description="" unit="" values="" default=""/>
+					<Tag name="EndDate" type="String" description="" unit="" values="" default=""/>
+					<Tag name="ApplicationLocation" type="enumeration" description="" unit="" values="OnPremise,Cloud,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="RelatedApp" type="Classifier:RelatedApp" description="" unit="CSUApplication" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUTimelineStage" metatype="CSUTimelineStage" notes="CSU Definition:  CSUTimelineStage provides information regarding the stage of an asset. The stage is roughly equivalent to the lifecycle of procuring, provision, live (in production), and no longer used. &#xA;&#xA;The CSUTimelineStage is generally used to define roadmaps for CSUApplications. " cx="140" cy="85" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk0GCAAAAAAAADYAAAAoAAAAGgAAABkAAAABABgAAAAAANAHAAASFwAAEhcAAAAAAAAAAAAA
+/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//
+//39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9
+/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39
+/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39
+/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39
+/f39/f39/f0AAOHh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh
+4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4/39/f39/f39/f39/f39/QAAvr7Bvr7Bvr7Bvr7Bvr7Bvr7B
+vr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7B/f39/f39/f39
+/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+AAA=</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAC5EPEvofk/HvQEAAHIJAAAHABEAc3RyLmRhdFVUDQAHw7PMWcOzzFnDs8xZ
+1VZNS8NAFJxrBP9DaC8KgtYPEIuHguLFk/UuTdLGYoxlkyhF/O/O202aTdJCWmmLLN3dJPNm
+5817CU3wihFmGMPFO3dTxPjGIQ7g8E6xnnIkxKR41IgxhtzPEXF3hA4CRiZk6uAY/UpUgA/4
+eONzT6NviUkYOyKLRCnOHSsmJn6oNUnkF/EpMRkj+5YexWs/ZwlzFWc44RMz97jaO1uVMAfU
+kFGRaDbZSxYeT8wWuua8U+W6aMkj6iJep1yFa8ZR57rcuSrjuuIsTKKtztTDdUsuyc7TWW7O
+MdY5tdVi1pLBbfhiEEXvClb6dcJ+jTh8oiP+VK1T7Co4G/W584du/MnXZnbLeqie4Sde+CSi
+0pAnu3xXXCrztbMSp6w3yyH3OujV7p3jikOyqe/26aRDf5Q+KeVXQ+WOiXdymosunjHAA27w
+VHF2oHFd7UWbujTfom1URTKfEG0jd+Fob4Wjwl86KOcaD+5yD7ot3Su/G9twbRX6P/ey8A/p
+vPhud7HpW3HA1zWYMqM4r0y4RkWqX+FtVEUyCfms2c3y/k21YvPfQCokvREsYots77XKotvq
+PPusTVmRqsZl/pv5F1BLAQIXCxQAAAAIAC5EPEvofk/HvQEAAHIJAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAfDs8xZUEsFBgAAAAABAAEAPgAAAPMBAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="StartDate" type="String" description="" unit="" values="" default=""/>
+					<Tag name="EndDate" type="String" description="" unit="" values="" default=""/>
+					<Tag name="ApplicationStage" type="enumeration" description="" unit="" values="Procurement,Provisioning,Live,Not Used,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="RelatedApp" type="Classifier:RelatedApp" description="" unit="CSUApplication" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUTimelineStandard" metatype="CSUTimelineStandard" notes="CSU Definition:  CSUTimelineStandrad provides information regarding the status of the standard of an asset. &#xA;&#xA;The CSUTimelineStandard is generally used to define roadmaps for CSUApplications. " cx="140" cy="85" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk0GCAAAAAAAADYAAAAoAAAAGgAAABkAAAABABgAAAAAANAHAAASFwAAEhcAAAAAAAAAAAAA
+/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP//
+//39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9
+/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39/f39/f39/f39/QAA5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39
+/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39/f39/f39/f0AAObm5+bm5+bm5+bm5+bm
+5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5+bm5/39/f39
+/f39/f39/f39/QAA5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn5ubn
+5ubn5ubn5ubn5ubn5ubn5ubn5ubn/f39/f39/f39/f39/f39AADm5ufm5ufm5ufm5ufm5ufm
+5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5ufm5uf9/f39/f39
+/f39/f39/f0AAOHh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh
+4+Hh4+Hh4+Hh4+Hh4+Hh4+Hh4/39/f39/f39/f39/f39/QAAvr7Bvr7Bvr7Bvr7Bvr7Bvr7B
+vr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7Bvr7B/f39/f39/f39
+/f39/f39AAD////9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AAP////39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/QAA/////f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AAD////9/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f0AAP////39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/QAA/////f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+AAA=</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEiIO0vvcdzpugEAAGoJAAAHABEAc3RyLmRhdFVUDQAHnNnLWZzZy1mc2ctZ
+1VbBTsJAFJxrTfyHBi6amCiKiZF4IMF48STcDW2hEiuSbashxn933m5Lty0kFQPEbNjd0nmz
+8+a9FmK8YIwFJnDxxt0Mc3zhGEdw+E2+nnPExCR41IgJhtwvEXF3ghYCRsZkauEUvVJUgHf4
+eOV9T6PviIkZOyaLRCnOLStmTvxQa5LIT+ITYlJG9iw9itd+xhJmKi5wxjtm7nC1d7YqYQ6o
+IaUi0Wyylyw8npiudC35TZnrqiGPqIt4nXAVrgVHlau7d1XGdcVZmERblamDm4Zckp2ns9ye
+Y6JzaqrFrAWDW/PFIPLeFaz065T9GnH4REf8qEqn2FVwtupz5w/d+J2t9ezW9VA1ww88805E
+pSFPdvmsuFTma2clTllPlkPu36A3u3eJaw7Jpro7pJMO/VH6pIRvDZU5Jt7JaS7aGKGPB9zi
+qeRsX+Pa2osmdak/RbuoimQ+JdpG7sPRzgZHhb9wUM41HgwyD9oN3SveG7twbRP6P/ey8A/p
+/IC+211salD8ho6oRzxuWony23cX1ZAMQt6rd7E8dzOt3/wnkMpITwSr2DzLe60y77IqzyFr
+UlSirHGd/2b+AVBLAQIXCxQAAAAIAEiIO0vvcdzpugEAAGoJAAAHAAkAAAAAAAAAAAAAgAAA
+AABzdHIuZGF0VVQFAAec2ctZUEsFBgAAAAABAAEAPgAAAPABAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="StartDate" type="String" description="" unit="" values="" default=""/>
+					<Tag name="EndDate" type="String" description="" unit="" values="" default=""/>
+					<Tag name="StandardType" type="enumeration" description="" unit="" values="Emerging,Precontain,Mainstream,Postcontain,Retiring,Rejected,Not Currently Defined" default="Not Currently Defined"/>
+					<Tag name="RelatedApp" type="Classifier:RelatedApp" description="" unit="CSUApplication" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="CSUVirtualware" metatype="CSUVirtualware" notes="The element that represents the Virtualware Entity in the What Classification of the Technician Perspective of the Zachman Framework. " cx="135" cy="60" bgcolor="-1" fontcolor="0" bordercolor="0" borderwidth="1" hideicon="0">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk2iBwAAAAAAADYAAAAoAAAAGQAAABkAAAABABgAAAAAAGwHAAASFwAAEhcAAAAAAAAAAAAA
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0AULAAULAAULAAULAAULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA/f39/f39/f39
+/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBQsABQsABQsABQsABQsABQsABQsABQsABQsABQ
+sABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsABQsAD9/f39/f39/f39/f0AULAAULAA
+ULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAAULAA
+ULAA/f39/f39/f39/f39AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCw
+AFCwAFCwAFCwAFCwAFCwAFCwAFCwAFCwAP39/f39/f39/f39/QBhtxhhtxhhtxhhtxhhtxhh
+txhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxhhtxj9/f39/f39
+/f39/f0Ak81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81hk81h
+k81hk81hk81hk81hk81h/f39/f39/f39/f39AMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjk
+rMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrMjkrP39/f39/f39/f39/QDr8t7r
+8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r8t7r
+8t7r8t79/f39/f39/f39/f0AichRichRichRichRichRichRichRichRichRichRichRichR
+ichRichRichRichRichRichRichRichRichR/f39/f39/f39/f39AP39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39AP39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/QD9/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f0A/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39AA==</Icon>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="SnSystemId" type="String" description="" unit="" values="" default=""/>
+					<Tag name="ClusterName" type="String" description="" unit="" values="" default=""/>
+					<Tag name="InstallDate" type="Date" description="" unit="" values="" default=""/>
+					<Tag name="DecomDate" type="Date" description="" unit="" values="" default=""/>
+					<Tag name="PatchWindow" type="String" description="" unit="" values="" default=""/>
+					<Tag name="Domain" type="String" description="" unit="" values="" default=""/>
+					<Tag name="PatchDate" type="Date" description="" unit="" values="" default=""/>
+					<Tag name="PatchLevel" type="String" description="" unit="" values="" default=""/>
+					<Tag name="Environment" type="enumeration" description="" unit="" values="DEV,PRD,QA,TST,VP,Not Currently Defined" default="Not Currently Defined"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="ERDDataConnector" metatype="ERD_DataConnector" notes="Connector used to make relationships between ERD Attributes." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ERD::ERD_Connector" baseStereotypes="ERD::ERD_Connector">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="_lineStyle" value="orthogonalS"/>
+						<Property name="compositionKind" value="none"/>
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes>
+			<TaggedValueType property="LogicalAssociationRef" description="" notes="Type=RefGUIDList;Stereotypes=ERD::ERD_naryAssociation;"/>
+			<TaggedValueType property="RelatedApp" description="" notes="Type=RefGUID;Stereotypes=CSUApplication;"/>
+		</TaggedValueTypes>
+	</Content>
+</UMLProfile>
